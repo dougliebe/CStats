@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Black Ops 3 Events | Competitive Call of Duty Stats</title>
+	<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+<link rel="stylesheet" type="text/css" href="assets\css\bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+<script src="assets\js\bootstrap.js" type="text/javascript"></script>
+<script src="assets\js\npm.js" type="text/javascript"></script>
+<script src="assets\js\sortable.js" type="text/javascript"></script>
+
+	<meta name="author" content="">
+	<link rel="icon" href="images/favicon.ico">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- BANNER
+================================================== -->
+<div id="banner" style="background-image:url(images/mlg-world-venue.jpg);" data-type="background" data-speed="6">
+	
+<!-- NAVIGATION
+		================================================== -->
+		<header id="top-header">
+			<div class="wrap">
+				<a href="index.html" class="logo">
+					<img src="images/logo.png" alt="COD Stats Logo" />
+				</a>
+				<nav id="main-nav">
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Events.html">Events</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="nav-toggle">
+					<span class="menu-text"><i class="fa fa-bars"></i> Menu</span>
+				</button>
+			</div>
+		</header><!-- /navigation -->	
+	<div class="banner-content event">
+		<h1>Infinite Warfare Events</h1>
+	</div>
+
+</div><!-- /banner -->
+
+<header class="details">
+	<div class="wrap">
+		<nav class="section-nav">	
+			<ul>
+				<li class="active"><a href="">Infinite Warfare</a></li>
+				<li><a href="BO3.html">Black Ops 3</a></li>
+				<li><a href="AdvanceWarfare.html">Advanced Warfare</a></li>
+				<li><a href="Ghosts.html">Ghosts</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<!-- EVENT LISTINGS
+================================================== -->
+<section class="section listings">
+	<div class="wrap">
+
+	
+	<!--
+	<div class="col-xs-6 listing event">
+				<a href="event.php">
+					<img src="images/events/cod-world-league.png" alt="" class="" />
+					<h4>COD World League NA Qualifier</h4>
+					<span class="event-detail">Groups C &amp; D</span>
+				</a>
+			</div>
+	-->
+	
+		<div class="row">
+			<div class="col-xs-6 col-md-2 listing event">
+				<a href="event.php">
+					<img src="images/events/cwl2017.png" alt="" class="" />
+					<h4>MLG Dallas</h4>
+					<span class="event-detail">MLG Dallas 2017</span>
+				</a>
+			</div>
+
+
+			
+			
+		</div>
+
+	</div>
+</section><!-- /event listings -->
+
+<!-- FOOTER
+================================================== 
+<footer id="main-footer">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<ul class="">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="events.php`">Events</a></li>
+					<li><a href="teams.php">Teams</a></li>
+					<li><a href="leaderboards.php">Leaderboards</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+				<p>Copyright &copy; 2015 Competitive COD Stats</p>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<a href="https://twitter.com/CoD_Stats" class="twitter"><i class="fa fa-twitter"></i>Follow @CoD_Stats</a>
+			</div>
+		</div>
+
+	</div>
+
+</footer> /footer -->
+
+	<!-- JavaScript
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			var $window = $(window); //You forgot this line in the above example
+/*
+			$('[data-type="background"]').each(function(){
+				var $bgobj = $(this); // assigning the object
+				$(window).scroll(function() {
+					var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+					// Put together our final background position
+					var coords = '50% '+ yPos + 'px';
+					// Move the background
+					$bgobj.css({ backgroundPosition: coords });
+				});
+			});
+*/
+			$('.nav-toggle').click(function() {
+				/* ACTIVATE NAV SLIDEOUT */
+				$('nav#main-nav').toggleClass('active');
+				/* ACTIVATE BODY SLIDEOUT */
+				$('body').toggleClass('slide-active');
+			})
+		});
+	</script>
+</body>
+</html>
+
