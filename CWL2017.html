@@ -3,23 +3,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-<title>CWL 2017 Stats!</title>
-	<meta name="keywords" content="cod_stats, competitive, stats, COD, esports, codcompetitive, reddit, optic">
-	<meta name="description" content="Official CoD_Stats team. Stats from the CWL 2017 League.">
-	<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
-	 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57003846-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+<head> 	 <script>   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57003846-1', 'auto');  ga('send', 'pageview');</script> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" /> 
 <meta name="Excel Workbook Frameset">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=ProgId content=Excel.Sheet>
@@ -59,27 +43,27 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "INDEX";
- c_rgszSh[1] = "LISTS";
- c_rgszSh[2] = "DATAENTRY";
- c_rgszSh[3] = "Player Ranks";
- c_rgszSh[4] = "nV";
- c_rgszSh[5] = "Splyce";
- c_rgszSh[6] = "Cloud9";
- c_rgszSh[7] = "Mindfreak";
- c_rgszSh[8] = "FaZe";
- c_rgszSh[9] = "Rise";
- c_rgszSh[10] = "Fnatic";
- c_rgszSh[11] = "Evil Geniuses";
- c_rgszSh[12] = "eUnited";
- c_rgszSh[13] = "Luminosity";
- c_rgszSh[14] = "Millenium";
- c_rgszSh[15] = "Epsilon";
- c_rgszSh[16] = "OpTic Gaming";
- c_rgszSh[17] = "Enigma6";
- c_rgszSh[18] = "Red Reserve";
- c_rgszSh[19] = "Elevate";
- c_rgszSh[20] = "MAP STATS";
- c_rgszSh[21] = "Records";
+ c_rgszSh[1] = "Player Ranks";
+ c_rgszSh[2] = "nV";
+ c_rgszSh[3] = "Splyce";
+ c_rgszSh[4] = "Cloud9";
+ c_rgszSh[5] = "Mindfreak";
+ c_rgszSh[6] = "FaZe";
+ c_rgszSh[7] = "Rise";
+ c_rgszSh[8] = "Fnatic";
+ c_rgszSh[9] = "Evil Geniuses";
+ c_rgszSh[10] = "eUnited";
+ c_rgszSh[11] = "Luminosity";
+ c_rgszSh[12] = "Millenium";
+ c_rgszSh[13] = "Epsilon";
+ c_rgszSh[14] = "OpTic";
+ c_rgszSh[15] = "Enigma6";
+ c_rgszSh[16] = "Red Reserve";
+ c_rgszSh[17] = "Elevate";
+ c_rgszSh[18] = "MAP STATS";
+ c_rgszSh[19] = "Records";
+ c_rgszSh[20] = "LISTS";
+ c_rgszSh[21] = "DATAENTRY";
  c_rgszSh[22] = "Sheet1";
  c_rgszSh[23] = "Sheet2";
 
@@ -129,7 +113,7 @@ function fnBuildFrameset()
 function fnBuildTabStrip()
 {
  var szHTML=
-  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
+  "<html><head> 	 <script>   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57003846-1', 'auto');  ga('send', 'pageview');</script> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" /> <style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
   ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style></head>"+
   "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0><table cellpadding=0 cellspacing=0 width=100%>"+
   "<tr><td colspan=6 height=1 bgcolor="+c_rgszClr[2]+"></td></tr>"+
@@ -147,7 +131,7 @@ function fnBuildTabStrip()
  }
 
  szHTML =
-  "<html><head>"+
+  "<html><head> 	 <script>   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57003846-1', 'auto');  ga('send', 'pageview');</script> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" /> "+
   "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
   ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:center;}"+
   ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
@@ -363,87 +347,87 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="CWL2017_files/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>LISTS</x:Name>
+    <x:Name>Player Ranks</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>DATAENTRY</x:Name>
+    <x:Name>nV</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Player Ranks</x:Name>
+    <x:Name>Splyce</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>nV</x:Name>
+    <x:Name>Cloud9</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Splyce</x:Name>
+    <x:Name>Mindfreak</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet006.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Cloud9</x:Name>
+    <x:Name>FaZe</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet007.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Mindfreak</x:Name>
+    <x:Name>Rise</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet008.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>FaZe</x:Name>
+    <x:Name>Fnatic</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet009.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Rise</x:Name>
+    <x:Name>Evil Geniuses</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet010.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Fnatic</x:Name>
+    <x:Name>eUnited</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet011.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Evil Geniuses</x:Name>
+    <x:Name>Luminosity</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet012.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>eUnited</x:Name>
+    <x:Name>Millenium</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet013.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Luminosity</x:Name>
+    <x:Name>Epsilon</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet014.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Millenium</x:Name>
+    <x:Name>OpTic</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet015.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Epsilon</x:Name>
+    <x:Name>Enigma6</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet016.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>OpTic Gaming</x:Name>
+    <x:Name>Red Reserve</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet017.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Enigma6</x:Name>
+    <x:Name>Elevate</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet018.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Red Reserve</x:Name>
+    <x:Name>MAP STATS</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet019.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Elevate</x:Name>
+    <x:Name>Records</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet020.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>MAP STATS</x:Name>
+    <x:Name>LISTS</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet021.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Records</x:Name>
+    <x:Name>DATAENTRY</x:Name>
     <x:WorksheetSource HRef="CWL2017_files/sheet022.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
