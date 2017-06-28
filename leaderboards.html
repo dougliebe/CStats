@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Leaderboards | Competitive Call of Duty Stats</title>
+	<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+<link rel="stylesheet" type="text/css" href="assets\css\bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+<script src="assets\js\bootstrap.js" type="text/javascript"></script>
+<script src="assets\js\npm.js" type="text/javascript"></script>
+<script src="assets\js\sortable.js" type="text/javascript"></script>
+
+	<meta name="author" content="">
+	<link rel="icon" href="images/favicon.ico">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet"><style type="text/css">
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr:before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr:before {
+	font-size:13px;
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+}
+</style>
+</head>
+<body>
+
+<!-- BANNER
+================================================== -->
+<div id="banner" style="background-image:url(images/mlg-world-venue.jpg);" data-type="background" data-speed="6">
+	
+		<!-- NAVIGATION
+		================================================== -->
+		<header id="top-header">
+			<div class="wrap">
+				<a href="index.php" class="logo">
+					<img src="images/logo.png" alt="COD Stats Logo" />
+				</a>
+				<nav id="main-nav">
+					<ul class="nav">
+						<li><a href="events.php">Events</a></li>
+						<li><a href="teams.php">Teams</a></li>
+						<li><a href="leaderboards.php">Leaderboards</a></li>
+						<li><a href="about.php">About</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="nav-toggle">
+					<span class="menu-text"><i class="fa fa-bars"></i> Menu</span>
+				</button>
+			</div>
+		</header><!-- /navigation -->
+	<div class="banner-content event">
+		<h1>Leaderboards</h1>
+	</div>
+
+</div><!-- /banner -->
+
+
+<!-- LEADERBOARD
+================================================== -->
+<section class="section gray stats event">
+	<div class="wrap">
+
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<table id="kdr" class="data sortable">
+							<thead>
+								<tr>
+									<td class="title">Player</td>
+									<td>K/D</td>
+									<td>Slayer</td>
+									<td>SND K/D</td>
+									<td>UL Dunks</td>
+									<td>HP Time</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="title"><a href=""><img src="images/teams/optic-gaming.png" alt="" class="table-icon" /> Scump</a></td>
+									<td>1.21</td>
+									<td>23.60</td>
+									<td>1.58</td>
+									<td>0.5</td>
+									<td>1.99</td>
+								</tr>
+								<tr>
+									<td class="title"><a href=""><img src="images/teams/faze-clan.png" alt="" class="table-icon" /> Claystar</a></td>
+									<td>1.19</td>
+									<td>25.15</td>
+									<td>1.27</td>
+									<td>0.9</td>
+									<td>1.1</td>
+								</tr>
+								<tr>
+									<td class="title"><a href=""><img src="images/teams/team-envyus.png" alt="" class="table-icon" /> Jkap</a></td>
+									<td>1.02</td>
+									<td>21.47</td>
+									<td>0.98</td>
+									<td>2.33</td>
+									<td>1.41</td>
+								</tr>
+								<tr>
+									<td class="title"><a href=""><img src="images/teams/team-kaliber.png" alt="" class="table-icon" /> Goonjar</a></td>
+									<td>0.92</td>
+									<td>22.31</td>
+									<td>1.32</td>
+									<td>1.5</td>
+									<td>1.62</td>
+								</tr>
+								<tr>
+									<td class="title"><a href=""><img src="images/teams/team-elevate.png" alt="" class="table-icon" /> Nagafen</a></td>
+									<td>1.0</td>
+									<td>22.43</td>
+									<td>1.71</td>
+									<td>0.33</td>
+									<td>1.53</td>
+								</tr>
+							</tbody>
+						</table>		
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+</section><!-- /leaderboard -->
+
+<!-- FOOTER
+================================================== -->
+<footer id="main-footer">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<ul class="">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="events.php`">Events</a></li>
+					<li><a href="teams.php">Teams</a></li>
+					<li><a href="leaderboards.php">Leaderboards</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+				<p>Copyright &copy; 2015 Competitive COD Stats</p>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<a href="https://twitter.com/CoD_Stats" class="twitter"><i class="fa fa-twitter"></i>Follow @CoD_Stats</a>
+			</div>
+		</div>
+
+	</div>
+
+</footer><!-- /footer -->
+
+	<!-- JavaScript
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			var $window = $(window); //You forgot this line in the above example
+/*
+			$('[data-type="background"]').each(function(){
+				var $bgobj = $(this); // assigning the object
+				$(window).scroll(function() {
+					var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+					// Put together our final background position
+					var coords = '50% '+ yPos + 'px';
+					// Move the background
+					$bgobj.css({ backgroundPosition: coords });
+				});
+			});
+*/
+			$('.nav-toggle').click(function() {
+				/* ACTIVATE NAV SLIDEOUT */
+				$('nav#main-nav').toggleClass('active');
+				/* ACTIVATE BODY SLIDEOUT */
+				$('body').toggleClass('slide-active');
+			})
+		});
+	</script><script src="assets/js/sortable.js"></script>
+
+</body>
+</html>
+
