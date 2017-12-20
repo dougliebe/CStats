@@ -1,5 +1,5 @@
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
- <o:MainFile HRef="../CWLDallas2017.html"/>
+ <o:MainFile HRef="../CWL2017.html"/>
  <o:File HRef="stylesheet.css"/>
  <o:File HRef="tabstrip.html"/>
  <o:File HRef="sheet001.html"/>
@@ -31,10 +31,6 @@
  <o:File HRef="image026.png"/>
  <o:File HRef="image027.png"/>
  <o:File HRef="image028.png"/>
- <o:File HRef="image029.png"/>
- <o:File HRef="image030.png"/>
- <o:File HRef="image031.png"/>
- <o:File HRef="image032.png"/>
  <o:File HRef="sheet002.html"/>
  <o:File HRef="sheet003.html"/>
  <o:File HRef="sheet004.html"/>
@@ -60,11 +56,5 @@
  <o:File HRef="sheet024.html"/>
  <o:File HRef="sheet025.html"/>
  <o:File HRef="sheet026.html"/>
- <o:File HRef="sheet027.html"/>
- <o:File HRef="sheet028.html"/>
- <o:File HRef="sheet029.html"/>
- <o:File HRef="sheet030.html"/>
- <o:File HRef="sheet031.html"/>
- <o:File HRef="sheet032.html"/>
  <o:File HRef="filelist.xml"/>
 </xml>
