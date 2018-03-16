@@ -74,8 +74,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[20] = "Records";
  c_rgszSh[21] = "LISTS";
  c_rgszSh[22] = "Sheet2";
- c_rgszSh[23] = "Sheet5";
- c_rgszSh[24] = "Sheet1";
+ c_rgszSh[23] = "Sheet1";
+ c_rgszSh[24] = "Sheet3";
  c_rgszSh[25] = "data";
  c_rgszSh[26] = "Sheet8";
  c_rgszSh[27] = "team comps (2nd half)";
@@ -113,7 +113,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -453,11 +453,11 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="CWLStage1_files/sheet023.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Sheet5</x:Name>
+    <x:Name>Sheet1</x:Name>
     <x:WorksheetSource HRef="CWLStage1_files/sheet024.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Sheet1</x:Name>
+    <x:Name>Sheet3</x:Name>
     <x:WorksheetSource HRef="CWLStage1_files/sheet025.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -499,6 +499,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>845</x:TabRatio>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:HidePivotTableFieldList/>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
@@ -507,7 +508,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="CWLStage1_files/sheet001.html" name="frSheet">
+ <frame src="CWLStage1_files/sheet002.html" name="frSheet">
  <frame src="CWLStage1_files/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
