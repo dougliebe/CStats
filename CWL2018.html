@@ -41,45 +41,49 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="CWL2018_files/sheet029.html">
 <link id="shLink" href="CWL2018_files/sheet030.html">
 <link id="shLink" href="CWL2018_files/sheet031.html">
+<link id="shLink" href="CWL2018_files/sheet032.html">
+<link id="shLink" href="CWL2018_files/sheet033.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=31;
+ var c_lTabs=33;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "INDEX";
  c_rgszSh[1] = "Player Ranks";
- c_rgszSh[2] = "Team Kaliber";
- c_rgszSh[3] = "OpTic Gaming";
- c_rgszSh[4] = "Rise Nation";
- c_rgszSh[5] = "Echo Fox";
- c_rgszSh[6] = "eRa Eternity";
- c_rgszSh[7] = "Red Reserve";
- c_rgszSh[8] = "Team Vitality";
- c_rgszSh[9] = "MindFreak";
- c_rgszSh[10] = "Luminosity";
- c_rgszSh[11] = "eUnited";
- c_rgszSh[12] = "FaZe Clan";
- c_rgszSh[13] = "Team EnVyUs";
- c_rgszSh[14] = " Evil Geniuses";
- c_rgszSh[15] = "Splyce";
- c_rgszSh[16] = "UNILAD";
- c_rgszSh[17] = "Epsilon";
- c_rgszSh[18] = "Map Stats";
- c_rgszSh[19] = "Map Veto | Allow";
- c_rgszSh[20] = "Records";
- c_rgszSh[21] = "LISTS";
- c_rgszSh[22] = "data";
- c_rgszSh[23] = "Sheet8";
- c_rgszSh[24] = "team comps (2nd half)";
- c_rgszSh[25] = "Sheet6";
- c_rgszSh[26] = "Sheet7";
- c_rgszSh[27] = "VETO DATA";
- c_rgszSh[28] = "SND BOMB DATA";
- c_rgszSh[29] = "Map Records";
- c_rgszSh[30] = "KPM";
+ c_rgszSh[2] = "Role Ranks";
+ c_rgszSh[3] = "Team Kaliber";
+ c_rgszSh[4] = "OpTic Gaming";
+ c_rgszSh[5] = "Rise Nation";
+ c_rgszSh[6] = "Echo Fox";
+ c_rgszSh[7] = "eRa Eternity";
+ c_rgszSh[8] = "Red Reserve";
+ c_rgszSh[9] = "Team Vitality";
+ c_rgszSh[10] = "MindFreak";
+ c_rgszSh[11] = "Luminosity";
+ c_rgszSh[12] = "eUnited";
+ c_rgszSh[13] = "FaZe Clan";
+ c_rgszSh[14] = "Team EnVyUs";
+ c_rgszSh[15] = " Evil Geniuses";
+ c_rgszSh[16] = "Splyce";
+ c_rgszSh[17] = "UNILAD";
+ c_rgszSh[18] = "Epsilon";
+ c_rgszSh[19] = "Map Stats";
+ c_rgszSh[20] = "Map Veto | Allow";
+ c_rgszSh[21] = "Records";
+ c_rgszSh[22] = "LISTS";
+ c_rgszSh[23] = "data";
+ c_rgszSh[24] = "Sheet8";
+ c_rgszSh[25] = "team comps (2nd half)";
+ c_rgszSh[26] = "Sheet6";
+ c_rgszSh[27] = "Sheet7";
+ c_rgszSh[28] = "Map Factor";
+ c_rgszSh[29] = "VETO DATA";
+ c_rgszSh[30] = "SND BOMB DATA";
+ c_rgszSh[31] = "Map Records";
+ c_rgszSh[32] = "KPM";
 
 
 
@@ -109,7 +113,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -365,129 +369,136 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="CWL2018_files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Team Kaliber</x:Name>
+    <x:Name>Role Ranks</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>OpTic Gaming</x:Name>
+    <x:Name>Team Kaliber</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Rise Nation</x:Name>
+    <x:Name>OpTic Gaming</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Echo Fox</x:Name>
+    <x:Name>Rise Nation</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet006.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>eRa Eternity</x:Name>
+    <x:Name>Echo Fox</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet007.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Red Reserve</x:Name>
+    <x:Name>eRa Eternity</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet008.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Team Vitality</x:Name>
+    <x:Name>Red Reserve</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet009.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>MindFreak</x:Name>
+    <x:Name>Team Vitality</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet010.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Luminosity</x:Name>
+    <x:Name>MindFreak</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet011.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>eUnited</x:Name>
+    <x:Name>Luminosity</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet012.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>FaZe Clan</x:Name>
+    <x:Name>eUnited</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet013.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Team EnVyUs</x:Name>
+    <x:Name>FaZe Clan</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet014.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name> Evil Geniuses</x:Name>
+    <x:Name>Team EnVyUs</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet015.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Splyce</x:Name>
+    <x:Name> Evil Geniuses</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet016.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>UNILAD</x:Name>
+    <x:Name>Splyce</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet017.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Epsilon</x:Name>
+    <x:Name>UNILAD</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet018.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Map Stats</x:Name>
+    <x:Name>Epsilon</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet019.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Map Veto | Allow</x:Name>
+    <x:Name>Map Stats</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet020.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Records</x:Name>
+    <x:Name>Map Veto | Allow</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet021.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>LISTS</x:Name>
+    <x:Name>Records</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet022.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>data</x:Name>
+    <x:Name>LISTS</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet023.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Sheet8</x:Name>
+    <x:Name>data</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet024.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>team comps (2nd half)</x:Name>
+    <x:Name>Sheet8</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet025.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Sheet6</x:Name>
+    <x:Name>team comps (2nd half)</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet026.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Sheet7</x:Name>
+    <x:Name>Sheet6</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet027.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>VETO DATA</x:Name>
+    <x:Name>Sheet7</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet028.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>SND BOMB DATA</x:Name>
+    <x:Name>Map Factor</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet029.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Map Records</x:Name>
+    <x:Name>VETO DATA</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet030.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>KPM</x:Name>
+    <x:Name>SND BOMB DATA</x:Name>
     <x:WorksheetSource HRef="CWL2018_files/sheet031.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Map Records</x:Name>
+    <x:WorksheetSource HRef="CWL2018_files/sheet032.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>KPM</x:Name>
+    <x:WorksheetSource HRef="CWL2018_files/sheet033.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="CWL2018_files/stylesheet.css"/>
-  <x:WindowHeight>9048</x:WindowHeight>
-  <x:WindowWidth>23040</x:WindowWidth>
+  <x:WindowHeight>8988</x:WindowHeight>
+  <x:WindowWidth>22980</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>845</x:TabRatio>
-  <x:ActiveSheet>1</x:ActiveSheet>
   <x:HidePivotTableFieldList/>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
@@ -496,7 +507,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="CWL2018_files/sheet002.html" name="frSheet">
+ <frame src="CWL2018_files/sheet001.html" name="frSheet">
  <frame src="CWL2018_files/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
