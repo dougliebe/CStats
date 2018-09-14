@@ -7,13 +7,15 @@
 	<title>Competitive Call Of Duty stats brought to you by COD Stats!</title>
 	<meta name="keywords" content="cod_stats, competitive, stats, COD, esports, codcompetitive, reddit, optic">
 	<meta name="description" content="Official CoD_Stats team. Here you will find the most accurate, and up to date stats from competitive COD.">
- 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 	<link rel="stylesheet" type="text/css" href="assets\css\bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
 	<script src="assets\js\bootstrap.js" type="text/javascript"></script>
 	<script src="assets\js\npm.js" type="text/javascript"></script>
 	<script src="assets\js\sortable.js" type="text/javascript"></script>
- 	<meta name="author" content="">
+
+	<meta name="author" content="">
 	<link rel="icon" href="images/favicon.ico">
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -32,12 +34,111 @@
   ga('create', 'UA-57003846-1', 'auto');
   ga('send', 'pageview');
 </script>
- </head>
+
+</head>
 <body>
- <!-- BANNER
+
+<!-- BANNER
 ================================================== -->
 <div id="banner" class="home" style="background-image:url(images/banners/about.jpg);" data-type="background" data-speed="6">
- 		Tico is a dumb monkey.
-    
+
+	</div>
+
+<!-- LEADERBOARDS
+================================================== -->
+<section class="section lg">
+
+	<div class="wrap">
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-5 col-md-5 section-col">
+				<h2>Tico is a dumb monkey</h2>
+				
+			</div>
+			<!--
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1 section-col leaderboard-preview">
+				<h4 class="pull-left">New Articles</h4>
+				<p class ="lg" style=padding-top:50px;>ayylmao</p>
+			</div>
+			-->
+		</div>
+
+	</div>
+
+</section><!-- /leaderboards -->
+
+<!-- TWITTER
+================================================== -->
+<section class="section lg gray">
+
+	<div class="wrap">
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 section-col">
+				<h2>Get the Latest Updates</h2>
+				<p>Follow us on Twitter <a href="https://twitter.com/CoD_Stats" class="text-link">@CoD_Stats</a> if you don't fancy looking through the tables of data and want to see the most interesting stats in a simpler form. You can also see the widget below to see the kind of things we tweet!</p>
+				<a href="https://twitter.com/CoD_Stats" class="btn blue"><i class="fa fa-twitter"></i>Follow Us on Twitter</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 section-col twitter-feed">
+				<a class="twitter-timeline"  href="https://twitter.com/CoD_Stats"  data-widget-id="496299287655890946">Tweets by @CoD_Stats</a>
+			</div>
+		</div>
+
+	</div>
+
+</section><!-- /twitter -->
+
+<!-- FOOTER
+==================================================
+<footer id="main-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<ul class="">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="events.php`">Events</a></li>
+					<li><a href="teams.php">Teams</a></li>
+					<li><a href="leaderboards.php">Leaderboards</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+				<p>Copyright &copy; 2015 Competitive COD Stats</p>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<a href="https://twitter.com/CoD_Stats" class="twitter"><i class="fa fa-twitter"></i>Follow @CoD_Stats</a>
+			</div>
+		</div>
+	</div>
+</footer>/footer -->
+
+	<!-- JavaScript
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var $window = $(window); //You forgot this line in the above example
+/*
+			$('[data-type="background"]').each(function(){
+				var $bgobj = $(this); // assigning the object
+				$(window).scroll(function() {
+					var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+					// Put together our final background position
+					var coords = '50% '+ yPos + 'px';
+					// Move the background
+					$bgobj.css({ backgroundPosition: coords });
+				});
+			});
+*/
+			$('.nav-toggle').click(function() {
+				/* ACTIVATE NAV SLIDEOUT */
+				$('nav#main-nav').toggleClass('active');
+				/* ACTIVATE BODY SLIDEOUT */
+				$('body').toggleClass('slide-active');
+			})
+		});
+	</script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
 </body>
 </html>
